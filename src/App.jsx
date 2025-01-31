@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
-import SearchBar from "./components/SearchBar";
-import WeatherCard from "./components/WeatherCard";
-import ErrorMessage from "./components/ErrorMessage";
+import SearchBar from "./Components/SearchBar";
+import WeatherCard from "./Components/WeatherCard";
+import ErrorMessage from "./Components/ErrorMessage";
 
 const App = () => {
   const [weather, setWeather] = useState(null);
